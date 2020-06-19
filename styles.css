@@ -1,0 +1,72 @@
+#buisnessLinks {
+    float: left;
+}
+.buttonsForSearch {
+    display: grid;
+    grid-template-columns: 100px 100px;
+    margin-top: 25px;
+    grid-column-gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    left: 0px;
+    bottom: 0;
+    position: fixed;
+    background-color: rgb(202, 202, 202);
+    width: 100%;
+    height: 30px;
+}
+#gridContainer {
+    display: grid;
+    justify-content: center;
+    grid-row-gap: 15px;
+}
+header {
+    height: 30px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+#HomeLogo{
+    padding-top: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+li {
+    float: left;
+}
+li a {
+    color: rgb(49, 48, 48);
+    text-decoration: none;
+    padding: 5px;
+    vertical-align: center;
+}
+li a:hover {
+    text-decoration: underline;
+}
+#logoContent {
+
+   width: auto;
+}
+#privacyTerms {
+    float:right;
+}
+#searchBar {
+    border-radius: 10px;
+    height: 30px;
+    width: 510px;
+}
+#searchForms {
+    align-items: center;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
